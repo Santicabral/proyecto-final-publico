@@ -1,0 +1,112 @@
+body {
+	font-family: sans-serif;
+	color: hsl(230, 80%, 8%);
+}
+#header {
+	background: #4b7778;
+	display: flex;
+	flex-direction: row;
+  	justify-content: space-between;
+}
+
+#header a, li {
+	list-style: none;
+	text-decoration: none;
+	color: white;	
+	font-size: 120%;
+	font-weight: bold;
+	display: inline-flex;
+	justify-content: space-between;
+	padding: 0px;
+	margin-right:13px;
+}
+
+nav li a:hover {
+  background: green;
+  transform: scale(1.1);
+  color: #5cba47;
+}
+
+.logo {
+	max-width: 12rem;
+	min-width: 2rem;
+	margin: 0px;
+	padding: 0px;
+}
+
+footer {
+	background: #4b7778;
+	color: white;
+	display: flex;
+}
+
+.producto {
+	max-height: 10rem;
+	min-height: 2rem;
+}
+
+table {
+	border-collapse: separate;
+  	border-spacing: 30px 5px;
+}
+
+form {
+	position: relative;
+	width  : 760px;
+	height : 450px;
+	margin :  auto;
+	background: hsl(200, 10%, 96%);
+}
+
+
+button {
+	margin: 1rem;
+}
+
+p,h1,h2,h3,h4,h5 {
+	padding: .5rem;
+	text-align: center;
+}
+
+#menu {
+	display: flex;
+	align-items: center;
+}
+ 
+.flex {
+display: flex;
+align-items: center;
+justify-content: center;
+}
+ 
+.flex-row {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.hijo {
+	padding: 3%;
+	align-items: center;
+	justify-content: center;
+}
+
+.futuro-grid {
+	padding-left: 20%;
+	padding-right: 20%;
+}
+
+.carousel, .carousel-inner > .carousel-item > img {
+	height: 450px;
+	width: 800px;
+}
+#contenedor-galeria {
+	position: relative;
+	margin-left: 20%;
+	margin-right: auto;
+}
+#contenedor-iframe{
+	position: relative;
+	margin-left: 25rem;
+}
