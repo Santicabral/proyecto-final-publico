@@ -1,0 +1,29 @@
+.color-azul {
+  color: #1f1fc596; }
+
+.color-amarillo {
+  color: #fdfd39d5; }
+
+.color-rojo {
+  color: #a01616b4; }
+
+.color-especial {
+  color: #e2acacb4; }
+
+#borrar {
+  font-family: monospace;
+  font-size: 2rem;
+  font-weight: bold;
+  background-color: coral; }
+
+@media (max-width: 575.98px) {
+  #fila-de-3, #contenedor-iframe {
+    display: none; }
+  #contenedor-galeria {
+    margin-left: auto; } }
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  #fila-de-3, #contenedor-iframe {
+    display: none; }
+  #contenedor-galeria {
+    margin-left: auto; } }

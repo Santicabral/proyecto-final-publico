@@ -1,0 +1,39 @@
+@mixin ride {
+    font-family: monospace;
+    font-size: 2rem;
+    font-weight: bold;
+    background-color: coral;
+} 
+
+$colors: (
+    azul: #1f1fc596,
+    amarillo: #fdfd39d5,
+    rojo: #a01616b4,
+    especial: #e2acacb4
+);
+
+@each $nombre, $color in $colors {
+    .color-#{$nombre} {color:$color}
+};
+
+#borrar {
+    @include ride
+};
+
+@media (max-width: 575.98px) {
+    #fila-de-3, #contenedor-iframe {
+        display: none;
+    }
+    #contenedor-galeria{
+        margin-left: auto;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    #fila-de-3, #contenedor-iframe {
+        display: none;
+    }
+    #contenedor-galeria{
+        margin-left: auto;
+    }
+}
