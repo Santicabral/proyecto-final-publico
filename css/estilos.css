@@ -28,10 +28,10 @@ nav li a:hover {
 }
 
 .logo {
-	max-width: 12rem;
-	min-width: 2rem;
-	margin: 0px;
-	padding: 0px;
+	max-width: 7rem;
+    min-width: .5rem;
+    margin: 0px;
+    padding: 3px;
 }
 
 footer {
@@ -70,32 +70,16 @@ p,h1,h2,h3,h4,h5 {
 }
 
 #menu {
-	display: flex;
-	align-items: center;
+	align-items: center
 }
  
-.flex {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-}
+
  
 .flex-row {
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
 	align-items: center;
-}
-
-.hijo {
-	padding: 3%;
-	align-items: center;
-	justify-content: center;
-}
-
-.futuro-grid {
-	padding-left: 20%;
-	padding-right: 20%;
 }
 
 .carousel, .carousel-inner > .carousel-item > img {
@@ -110,4 +94,9 @@ p,h1,h2,h3,h4,h5 {
 #contenedor-iframe{
 	position: relative;
 	margin-left: 25rem;
+}
+
+.link{
+	text-decoration: none;
+	color: white;	
 }

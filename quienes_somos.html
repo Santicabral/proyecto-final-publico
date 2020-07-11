@@ -3,33 +3,58 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>¿Quienes Somos?</title>
+	<title>¿Quienes Somos? - Terra</title>
+	<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 	<link rel="stylesheet" href="css/estilos.css">
 	<link rel="stylesheet" href="css/estiloso.css">
 </head>
 <body>
-	<header id="header">
-		<a href="index.html"><img src="img/logo.jpg" alt="Logo-Terra"></a>
-		<nav id="menu">
-			<ul>
-				<li><a href="index.html">Inicio</a></li>
-				<li><a href="quienes_somos.html">¿Quienes Somos?</a></li>
-				<li><a href="productos.html">Productos</a></li>
-				<li><a href="galeria.html">Galería</a></li>
-				<li><a href="contacto.html">Contacto</a></li>			
-			</ul>
-		</nav>
+	<header id="header"> 
+		<div class="container-fluid">
+			<div class="row align-items-center">
+				<div class="col-4">
+					<a href="index.html"><img src="img/logo.jpg" alt="Logo-Terra" class="logo"></a>
+				</div>
+				<div class="col-8">
+					<nav id="menu">
+						<ul>
+							<li><a href="index.html">Inicio</a></li>
+							<li><a href="quienes_somos.html">¿Quienes Somos?</a></li>
+							<li><a href="productos.html">Productos</a></li>
+							<li><a href="galeria.html">Galería</a></li>
+							<li><a href="contacto.html">Contacto</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</div>
 	</header>
-	<div>
-		<p class="color-rojo" id="borrar">Esta es la seccion de <b>¿Quiénes somos?</b></p>
-		<p>Terra es una empresa fictícia creada en minutos, para poder justificar mi proyecto integrador del curso de Diseño Web. Si alguien quiere comprar la idea, es bienvenido.</p>
+	<div class="container">
+			<div class="text-center">
+				<h1 class="section-heading text-uppercase">Nosotros</h1>
+				<p class="descripción text-muted section-subheading">Terra es una empresa fictisia, creada para poder poner en práctica lo aprendido en clase en el proyecto final.</p>
+			</div>
 	</div>
-	<div id="contenedor-iframe">
-		<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/QD2ZwHWSAKk?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-	</div>
+	<main id="nosotros">
+		<p class="historia impar"><b>Abril 2020 - Comienza el Curso.</b> <br>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores deserunt maiores repellendus impedit quisquam exercitationem!</p>
+		<p class="historia par"> <b>Abril 2020 - Comienzo el proyecto final.</b> <br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet assumenda iste magni, nesciunt ut ad?</p>
+		<p class="historia impar"> <b>Junio 2020 - Termina el curso.</b> <br> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis ullam error velit officiis itaque excepturi.</p>
+		<p class="historia par"> <b>Julio 2020 - Entrega de proyeto final</b>. <br> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur architecto eligendi facilis harum earum alias?</p>
+		<p class="historia impar">¡Ahora Soy diseñador web! - Mi LinkedIn <i class="fa fa-linkedin" aria-hidden="true"></i> <a href="https://linkedin.com/in/cabralsantiago" target="blank">AQUÍ.</a></p>
+	  </main>
 	<footer>
-		<img src="img/logo.jpg" alt="Logo-Terra" class="logo"> 
-		<p>2020 <i><b>Todos</b> los derechos reservados</i></p>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-4">
+					<img src="img/logo.jpg" alt="Logo-Terra" class="logo img-fluid"> 
+				</div>
+				<div class="col-8">
+					<p>2020 <i><b>Todos</b> los derechos reservados</i>.  Hand made by <a href="https://www.linkedin.com/in/cabralsantiago/" target="_blank" class="link">Santiago Cabral</a>
+					</p>
+				</div>
+			</div>	
+		</div>	
 	</footer>
 </body>
 </html>
