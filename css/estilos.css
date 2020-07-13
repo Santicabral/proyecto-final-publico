@@ -22,9 +22,7 @@ body {
 }
 
 nav li a:hover {
-  background: green;
   transform: scale(1.1);
-  color: #5cba47;
 }
 
 .logo {
@@ -53,8 +51,8 @@ table {
 
 form {
 	position: relative;
-	width  : 760px;
-	height : 450px;
+	width  : auto;
+	height : auto;
 	margin :  auto;
 	background: hsl(200, 10%, 96%);
 }

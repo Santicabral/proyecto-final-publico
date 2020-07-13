@@ -3,56 +3,76 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Contacto</title>
+	<title>Contacto - Terra</title>
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 	<link rel="stylesheet" href="css/estilos.css">
 	<link rel="stylesheet" href="css/estiloso.css">
 </head>
 <body>
-	<header id="header">
-		<a href="index.html"><img src="img/logo.jpg" alt="Logo-Terra"></a>
-		<nav id="menu">
-			<ul>
-				<li><a href="index.html">Inicio</a></li>
-				<li><a href="quienes_somos.html">¿Quienes Somos?</a></li>
-				<li><a href="productos.html">Productos</a></li>
-				<li><a href="galeria.html">Galería</a></li>
-				<li><a href="contacto.html">Contacto</a></li>			
-			</ul>
-			
-		</nav>
+	<header id="header"> 
+		<div class="container-fluid">
+			<div class="row align-items-center">
+				<div class="col-4">
+					<a href="index.html"><img src="img/logo.jpg" alt="Logo-Terra" class="logo"></a>
+				</div>
+				<div class="col-8">
+					<nav id="menu">
+						<ul>
+							<li><a href="index.html">Inicio</a></li>
+							<li><a href="quienes_somos.html">¿Quienes Somos?</a></li>
+							<li><a href="productos.html">Productos</a></li>
+							<li><a href="galeria.html">Galería</a></li>
+							<li><a href="contacto.html">Contacto</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</div>
 	</header>
-	<h1><b>CONTACTO</b></h1>
-	<br>
-	<p>Gracias por tu interés, completa el formulario y estaremos en contacto.</p>
-	<form action="#" method="post">
-		<div class="form-group pl-1 pr-1" >
-			<label for="nombre">Nombre</label>
-			<input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Ejemplo: Sergio Ramos" required name="nombre">
+	<div class="text-center">
+		<h2 class="section-heading text-uppercase">Contacto</h2>
+		<h3 class="section-subheading text-muted">Completá el siguiente formulario y estaremos en contacto.</h3>
+	</div>
+	<div class="container">
+		<div>
+			<form action="#" method="post">
+				<div class="form-group pl-1 pr-1" >
+					<label for="nombre">Nombre</label>
+					<input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Ejemplo: Sergio Ramos" required name="nombre">
+				</div>
+				<div class="form-group pl-1 pr-1">
+				  <label for="exampleFormControlInput1">Email</label>
+				  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@ejemplo.com" required name="email">
+				</div>
+				<div class="form-group pl-1 pr-1">
+				  <label for="exampleFormControlSelect1">¿Cómo nos conociste?</label>
+				  <select class="form-control" id="exampleFormControlSelect1">
+					<option>Instagram</option>
+					<option>Facebook</option>
+					<option>Recomendación</option>
+					<option>Búsqueda en google</option>
+				  </select>
+				</div>
+				<div class="form-group pl-1 pr-1">
+				  <label for="exampleFormControlTextarea1">Dejanos tu mensaje:</label>
+				  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+				</div>
+				<button type="submit" class="btn btn-primary">Enviar</button> 
+			</form>
 		</div>
-		<div class="form-group pl-1 pr-1">
-		  <label for="exampleFormControlInput1">Email</label>
-		  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@ejemplo.com" required name="email">
-		</div>
-		<div class="form-group pl-1 pr-1">
-		  <label for="exampleFormControlSelect1">¿Cómo nos conociste?</label>
-		  <select class="form-control" id="exampleFormControlSelect1">
-			<option>Instagram</option>
-			<option>Facebook</option>
-			<option>Recomendación</option>
-			<option>Búsqueda en google</option>
-		  </select>
-		</div>
-		<div class="form-group pl-1 pr-1">
-		  <label for="exampleFormControlTextarea1">Dejanos tu mensaje:</label>
-		  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-		</div>
-		<button type="submit" class="btn btn-primary">Enviar</button> 
-	  </form>
+	</div>
 	<footer>
-		<img src="img/logo.jpg" alt="Logo-Terra" class="logo"> 
-		<p>2020 <i><b>Todos</b> los derechos reservados</i></p>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-4">
+					<img src="img/logo.jpg" alt="Logo-Terra" class="logo img-fluid"> 
+				</div>
+				<div class="col-8">
+					<p>2020 <i><b>Todos</b> los derechos reservados</i>.  Hand made by <a href="https://www.linkedin.com/in/cabralsantiago/" target="_blank" class="link">Santiago Cabral</a>
+					</p>
+				</div>
+			</div>	
+		</div>	
 	</footer>
 </body>
 </html>

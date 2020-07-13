@@ -4,64 +4,78 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Productos</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 	<link rel="stylesheet" href="css/estilos.css">
-	<link rel="stylesheet" href="css/estiloso.css">
 </head>
 <body>
-	<header id="header">
-		<a href="index.html"><img src="img/logo.jpg" alt="Logo-Terra"></a>
-		<nav id="menu">
-			<ul>
-				<li><a href="index.html">Inicio</a></li>
-				<li><a href="quienes_somos.html">¿Quienes Somos?</a></li>
-				<li><a href="productos.html">Productos</a></li>
-				<li><a href="galeria.html">Galería</a></li>
-				<li><a href="contacto.html">Contacto</a></li>			
-			</ul>
-			
-		</nav>
-	</header>
-	<h1>Nuestros Productos</h1>
-	<section>
-		<div>
-			<div>
-				<h2>¿Qué ofrecemos?</h2>
-				<h3>Lorem ipsum dolor sit amet consectetur.</h3>
+	<header id="header"> 
+		<div class="container-fluid">
+			<div class="row align-items-center">
+				<div class="col-4">
+					<a href="index.html"><img src="img/logo.jpg" alt="Logo-Terra" class="logo"></a>
+				</div>
+				<div class="col-8">
+					<nav id="menu">
+						<ul>
+							<li><a href="index.html">Inicio</a></li>
+							<li><a href="quienes_somos.html">¿Quienes Somos?</a></li>
+							<li><a href="productos.html">Productos</a></li>
+							<li><a href="galeria.html">Galería</a></li>
+							<li><a href="contacto.html">Contacto</a></li>
+						</ul>
+					</nav>
+				</div>
 			</div>
-			<div>
-				<div>
-					<div>
-						<img src="img/productos/1.jpg" >
-						<h4>Otoño-Invierno</h4>
-						<p>
-							Semillas: <br>
-							Lechuga - Zanahoria <br>Cebolla - Espinaca	
+		</div>
+	</header>
+	<div class="text-center">
+		<h1 class="section-heading">¿Qué ofrecemos?</h1>
+		<h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+	</div>
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-12 col-md-4 mt-2">
+				<div class="card" style="width: 18rem;">
+					<img class="card-img-top" src="img/productos/1.jpg" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">Kit Otoño-Invierno</h5>
+						<p class="card-text">Semillas: <br>
+							Lechuga - Zanahoria <br>Cebolla - Espinaca
 						</p>
 					</div>
 				</div>
-				<div>
-					<div>
-						<h4>Kits para cultivar tu huerta donde sea.</h4>
-						<p>Son 2 cajas, que traen lo necesario para plantar las semillas de acuerdo a la estación del año. Además de semillas, trae instrucciones, tierra fértil para que tu huerta crezca fuerte y macetas biodegradables. ¡Todo lo que necesitas para aumentar o comenzar tu huerta organica!</p>
+			</div>
+			<div class="col-sm-12 col-md-4 mt-2">
+				<div class="card" style="width: 18rem;">
+					<div class="card-body">
+					  <h4 class="card-title">Kits para cultivar tu huerta donde sea.</h4>
+					  <p class="card-text">Son dos cajas, que traen lo necesario para plantar las semillas de acuerdo a la estación del año. Además de semillas, trae instrucciones, tierra fértil para que tu huerta crezca fuerte y macetas biodegradables. ¡Todo lo que necesitas para aumentar o comenzar tu huerta organica!</p>
 					</div>
-				</div> 
-				<div>
-					<div>
-						<img src="img/productos/2.jpg" alt="" />
-						<h4>Primavera-Verano</h4>
-						<p>
-							Semillas: <br>
-							Zapallos - Tomates <br>Morrón - Berenjena
-						</p>
+				</div>
+			</div>
+			<div class="col-sm-12 col-md-4 mt-2">
+				<div class="card" style="width: 18rem;">
+					<img class="card-img-top" src="img/productos/2.jpg" alt="Card image cap">
+					<div class="card-body">
+					  <h5 class="card-title">Kit Primavera-Verano</h5>
+					  <p class="card-text">Semillas: <br> Zapallos - Tomates <br>Morrón - Berenjena</p>
 					</div>
 				</div>
 			</div>
 		</div>
-	</section>
-
+	</div>
 	<footer>
-		<img src="img/logo.jpg" alt="Logo-Terra" class="logo"> 
-		<p>2020 <i><b>Todos</b> los derechos reservados</i></p>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-4">
+					<img src="img/logo.jpg" alt="Logo-Terra" class="logo img-fluid"> 
+				</div>
+				<div class="col-8">
+					<p>2020 <i><b>Todos</b> los derechos reservados</i>.  Hand made by <a href="https://www.linkedin.com/in/cabralsantiago/" target="_blank" class="link">Santiago Cabral</a>
+					</p>
+				</div>
+			</div>	
+		</div>	
 	</footer>
 </body>
 </html>
