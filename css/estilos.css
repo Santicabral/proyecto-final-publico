@@ -1,6 +1,7 @@
 body {
 	font-family: sans-serif;
 	color: hsl(230, 80%, 8%);
+	background-color:  hsla(229, 89%, 93%, 0.322);;
 }
 #header {
 	background: #4b7778;
@@ -54,7 +55,7 @@ form {
 	width  : auto;
 	height : auto;
 	margin :  auto;
-	background: hsl(200, 10%, 96%);
+	background: hsla(211, 40%, 25%, 0.144);
 }
 
 
